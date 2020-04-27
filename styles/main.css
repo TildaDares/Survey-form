@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background: url('../emma-matthews-digital-content-production-5-o5Xe_IwcQ-unsplash.jpg'), rgba(255, 183, 219, 0.3);
+    background-size: cover, cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    background-color: rgba(255, 183, 219, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+.purpose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+#title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#description {
+    font-size: 1.4rem;
+}
+
+.text {
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.form {
+    width: 750px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    margin: auto;
+    color: beige;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+form input {
+    text-indent: 20px;
+}
+
+input.text-fields:hover,
+button.submit-button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+.container {
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.text-fields,
+select {
+    border: 1px hidden black;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+}
+
+select {
+    height: 40px;
+}
+
+fieldset {
+    width: 90%;
+    color: beige;
+    margin-top: 30px;
+}
+
+fieldset legend {
+    font-size: 1.5rem;
+}
+
+.radio-texts {
+    padding-bottom: 5px;
+}
+
+span {
+    font-size: 16px;
+}
+
+textarea {
+    width: 90%;
+    height: 80px;
+}
+
+.submit-button {
+    width: 92%;
+    margin-top: 30px;
+    height: 45px;
+    outline: none;
+    background: pink;
+    border: 1px hidden black;
+    font-size: 1.3rem;
+    border-radius: 7px;
+}
+
+@media(max-width: 844px) {
+    .form {
+        width: 90%;
+        height: auto;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 15px;
+        margin: auto;
+        color: beige;
+        margin-bottom: 30px;
+        padding-bottom: 40px;
+    }
+    body {
+        background: url('../emma-matthews-digital-content-production-5-o5Xe_IwcQ-unsplash.jpg'), rgba(255, 183, 219, 0.3);
+        background-size: cover, cover;
+        background-repeat: no-repeat;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container {
+        margin-left: 30px;
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+}
+
+@media(max-width: 745px) {
+    .form {
+        width: 90%;
+        height: auto;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 15px;
+        margin: auto;
+        color: beige;
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+    }
+    body {
+        background: rgba(255, 183, 219, 0.3);
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #title {
+        font-size: 5.5vw;
+        font-weight: bold;
+    }
+    #description {
+        font-size: 3.4vw;
+    }
+    .text {
+        font-size: 5.2vw;
+        padding-top: 20px;
+    }
+    .container {
+        margin-left: 30px;
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+}
