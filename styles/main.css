@@ -11,8 +11,9 @@ body {
 
 body {
     background: url('../emma-matthews-digital-content-production-5-o5Xe_IwcQ-unsplash.jpg'), rgba(255, 183, 219, 0.3);
-    background-size: cover, cover;
+    background-size: cover, 25%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
