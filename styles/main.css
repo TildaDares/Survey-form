@@ -119,6 +119,10 @@ textarea {
     border-radius: 7px;
 }
 
+.submit-button:hover {
+    cursor: pointer;
+}
+
 .pad-checkbox {
     margin-bottom: 10px;
     margin-right: 6px;
