@@ -16,15 +16,15 @@
 <div class ="container">
 
 <form action="#" method="GET" id="survey-form">
-<p class ="text">Name</p>
+<p class ="text exempt">Name</p>
 <input type ="text" placeholder="Jane Doe" class ="text-fields" name ="name" id ="name" required>
-<p class ="text">Email</p>
+<p class ="text exempt">Email</p>
 <input type="email" placeholder ="qwertyuiop@gmail.com" class ="text-fields" name ="email" id ="email" required>
-<p class ="text">Date of Birth</p>
+<p class ="text exempt">Date of Birth</p>
 <input type ="date" class ="text-fields" name ="dob" min ="2004-01-02" required>
 
 <!--Gender radio-->
-<p class="text radio-texts">Gender</p>
+<p class="text radio-texts exempt">Gender</p>
 <input type ="radio" name ="gender" id ="male" value ="male">
 <label for="male">Male</label><br>
 <input type ="radio" name ="gender" id ="female" value ="female">
@@ -33,7 +33,7 @@
 <label for="nb">Non-Binary</label><br>
 
 <!--Select-->
-<p class="text">Which option best describes your role</p>
+<p class="text exempt">Which option best describes your role?</p>
 <select name="role" id="dropdown">
 <option disabled selected value>Select an option</option>
     <option value ="student">Student</option>
@@ -43,7 +43,7 @@
     <option value ="rather-not-say">I'd rather not say</option>
   </select>
 
-<p class="text radio-texts">Would you recommend phoeniX to a friend?</p>
+<p class="text radio-texts exempt">Would you recommend phoeniX to a friend?</p>
 <input type="radio" name="recommend" id="defs" value="defs">
 <label for="defs">Definetely</label><br>
 <input type="radio" name="recommend" id="maybe" value="maybe">
@@ -52,7 +52,7 @@
 <label for="idk">I don't know</label><br>
 
 <!--Select-->
-<p class="text">What is your favourite feature of phoeniX?</p>
+<p class="text exempt">What is your favourite feature of phoeniX?</p>
 <select name="role">
 <option disabled selected value>Select an option</option>
     <option value ="community"> The Community</option>
@@ -62,7 +62,7 @@
     <option value ="nothing"> I don't like anything</option>
   </select>
 
-<p class="text radio-texts">What would you like to see improved? <span>(check all that apply)</span></p>
+<p class="text radio-texts exempt">What would you like to see improved? <span>(check all that apply)</span></p>
 <input type="checkbox" value ="checkbox-1" class="pad-checkbox" id="interface">
 <label for="interface">The user interface</label><br>
 <input type="checkbox" value ="checkbox-2" class="pad-checkbox" id="giveaways">
